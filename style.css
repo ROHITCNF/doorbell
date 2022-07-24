@@ -1,0 +1,52 @@
+body{
+  background-color: #FEFFDF;
+}
+.top-container{
+  padding: 30px;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+#topH1{
+  color: #FEB139;
+}
+.bell-row{
+  display: inline-block;
+}
+#door{
+  height: 300px;
+  width: 300px;
+  margin: 30px;
+  border-radius: 30px;
+}
+#bell{
+  height: 300px;
+  width: 200px;
+  margin: 30px;
+  border-radius: 100px;
+}
+
+@media only screen and (max-width: 720px){
+  .bell-row{
+    
+    padding: 30px;
+  }
+  #door{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 30px;
+  }
+  #bell{
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+    border-radius: 100px;
+  }
+  #topH1{
+    padding: 10px;
+  }
+  h1{
+    padding: 10px;
+  }
+}
